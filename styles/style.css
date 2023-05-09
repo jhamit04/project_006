@@ -43,6 +43,10 @@ button.button-small {
     border: none;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
+}
+button.button-small:hover{
+    background-color: blueviolet;
 }
 ul.list {
     display: flex;
@@ -52,6 +56,10 @@ ul.list {
 }
 li.list-item {
     margin: 0% 2%;
+    cursor: pointer;
+}
+li.list-item:hover {
+    background-color: blueviolet;
 }
 section[aria-label="hero"] {
     height: 90vh;
@@ -75,6 +83,7 @@ h1.hero-heading {
 p.hero-description {
     font-size: 29px;
     color: white;
+    text-align: center;
 }
 button.button-large {
     margin: 5% 0px;
@@ -85,4 +94,8 @@ button.button-large {
     background-color: #cc46cc;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+button.button-large:hover{
+    background-color: blueviolet;
 }
