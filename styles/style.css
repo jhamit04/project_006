@@ -59,7 +59,7 @@ li.list-item {
     cursor: pointer;
 }
 li.list-item:hover {
-    background-color: blueviolet;
+    color: rgb(185, 137, 231);
 }
 section[aria-label="hero"] {
     height: 90vh;
