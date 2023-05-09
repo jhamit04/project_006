@@ -28,12 +28,17 @@ nav.navbar {
 img.logo {
     width: 60%;
 }
+.line {
+    width: 1px;
+    height: 62%;
+    background-color: white;
+}
 .grow-list {
     width: 60%;
 }
 button.button-small {
-    height: 100%;
-    width: 75%;
+    height: 4vh;
+    width: 7vw;
     background-color: purple;
     border: none;
     color: white;
@@ -73,11 +78,11 @@ p.hero-description {
 }
 button.button-large {
     margin: 5% 0px;
-    height: 7%;
-    width: 21%;
-    font-size: 16px;
+    height: 8%;
+    width: 25%;
+    font-size: 20px;
     color: white;
-    background-color: purple;
+    background-color: #cc46cc;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
 }
